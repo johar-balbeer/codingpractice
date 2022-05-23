@@ -8,7 +8,7 @@ public class NextGreaterElement {
 
         int arrayLength = input.length;
 
-        int output[] = new int[arrayLength];
+        //int output[] = new int[arrayLength];
 
 
         for(int i = 0; i < arrayLength - 1; i++) {
@@ -22,14 +22,14 @@ public class NextGreaterElement {
                 }
             }
 
-            output[i] = nextBig;
+            input[i] = nextBig;
 
         }
 
-        output[arrayLength-1] = -1;
+        input[arrayLength-1] = -1;
 
         for(int i = 0; i < arrayLength; i++) {
-            System.out.println(output[i]);
+            System.out.println(input[i]);
         }
 
 
