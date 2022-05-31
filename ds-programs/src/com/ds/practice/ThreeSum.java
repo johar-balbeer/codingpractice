@@ -33,8 +33,6 @@ public class ThreeSum {
                 }
             }
         }
-
-        // add your logic here
         return outputList;
     }
 
