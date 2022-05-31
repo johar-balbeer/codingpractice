@@ -16,6 +16,7 @@ public class RowColumnZero {
                 if(matrix[i][j] == 0) {
                     row.add(i);
                     column.add(j);
+                    break;
                 }
             }
         }
