@@ -1,7 +1,6 @@
 package com.ds.practice;
 
 import java.util.HashSet;
-import java.util.LinkedHashSet;
 import java.util.Set;
 
 public class LongestSubstringWithoutRepeat {
@@ -27,12 +26,13 @@ public class LongestSubstringWithoutRepeat {
              }
             }
         }
-        System.out.println(startIndex+" "+ endIndex);
+        System.out.println(maxLength-endIndex+" "+ endIndex);
     }
 
 
     public static void main(String[] args) {
-        String input="HemantBhagwani";
+        String input="reyanshbhagwani";
+        longestSubtringWithoutRepeat(input.toCharArray());
 
     }
 }
