@@ -1,5 +1,4 @@
 package com.ds.practice;
-import javax.swing.plaf.synth.SynthTextAreaUI;
 import java.util.HashSet;
 import java.util.Set;
 
